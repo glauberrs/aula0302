@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57305DC61AFBCF09004D553E /* Tela02.m in Sources */ = {isa = PBXBuildFile; fileRef = 57305DC41AFBCF09004D553E /* Tela02.m */; };
+		57305DC71AFBCF09004D553E /* Tela02.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57305DC51AFBCF09004D553E /* Tela02.xib */; };
 		576130EA1AFAA0130004D0CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 576130E91AFAA0130004D0CB /* main.m */; };
 		576130ED1AFAA0130004D0CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 576130EC1AFAA0130004D0CB /* AppDelegate.m */; };
 		576130F01AFAA0130004D0CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576130EF1AFAA0130004D0CB /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		576130F51AFAA0130004D0CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576130F41AFAA0130004D0CB /* Images.xcassets */; };
 		576130F81AFAA0130004D0CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 576130F61AFAA0130004D0CB /* LaunchScreen.xib */; };
 		576131041AFAA0140004D0CB /* aula0302Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 576131031AFAA0140004D0CB /* aula0302Tests.m */; };
+		576131101AFAA6B80004D0CB /* CelulaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761310E1AFAA6B80004D0CB /* CelulaTableViewCell.m */; };
+		576131111AFAA6B80004D0CB /* CelulaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5761310F1AFAA6B80004D0CB /* CelulaTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57305DC31AFBCF09004D553E /* Tela02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tela02.h; path = ../Tela02.h; sourceTree = "<group>"; };
+		57305DC41AFBCF09004D553E /* Tela02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tela02.m; path = ../Tela02.m; sourceTree = "<group>"; };
+		57305DC51AFBCF09004D553E /* Tela02.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Tela02.xib; path = ../Tela02.xib; sourceTree = "<group>"; };
 		576130E41AFAA0130004D0CB /* aula0302.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aula0302.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		576130E81AFAA0130004D0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		576130E91AFAA0130004D0CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,9 @@
 		576130FD1AFAA0140004D0CB /* aula0302Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aula0302Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		576131021AFAA0140004D0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		576131031AFAA0140004D0CB /* aula0302Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aula0302Tests.m; sourceTree = "<group>"; };
+		5761310D1AFAA6B80004D0CB /* CelulaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelulaTableViewCell.h; sourceTree = "<group>"; };
+		5761310E1AFAA6B80004D0CB /* CelulaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelulaTableViewCell.m; sourceTree = "<group>"; };
+		5761310F1AFAA6B80004D0CB /* CelulaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CelulaTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +91,16 @@
 		576130E61AFAA0130004D0CB /* aula0302 */ = {
 			isa = PBXGroup;
 			children = (
+				57305DC31AFBCF09004D553E /* Tela02.h */,
+				57305DC41AFBCF09004D553E /* Tela02.m */,
+				57305DC51AFBCF09004D553E /* Tela02.xib */,
 				576130EB1AFAA0130004D0CB /* AppDelegate.h */,
 				576130EC1AFAA0130004D0CB /* AppDelegate.m */,
 				576130EE1AFAA0130004D0CB /* ViewController.h */,
 				576130EF1AFAA0130004D0CB /* ViewController.m */,
+				5761310D1AFAA6B80004D0CB /* CelulaTableViewCell.h */,
+				5761310E1AFAA6B80004D0CB /* CelulaTableViewCell.m */,
+				5761310F1AFAA6B80004D0CB /* CelulaTableViewCell.xib */,
 				576130F11AFAA0130004D0CB /* Main.storyboard */,
 				576130F41AFAA0130004D0CB /* Images.xcassets */,
 				576130F61AFAA0130004D0CB /* LaunchScreen.xib */,
@@ -200,6 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				576130F31AFAA0130004D0CB /* Main.storyboard in Resources */,
+				576131111AFAA6B80004D0CB /* CelulaTableViewCell.xib in Resources */,
+				57305DC71AFBCF09004D553E /* Tela02.xib in Resources */,
 				576130F81AFAA0130004D0CB /* LaunchScreen.xib in Resources */,
 				576130F51AFAA0130004D0CB /* Images.xcassets in Resources */,
 			);
@@ -220,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				576130F01AFAA0130004D0CB /* ViewController.m in Sources */,
+				576131101AFAA6B80004D0CB /* CelulaTableViewCell.m in Sources */,
 				576130ED1AFAA0130004D0CB /* AppDelegate.m in Sources */,
 				576130EA1AFAA0130004D0CB /* main.m in Sources */,
+				57305DC61AFBCF09004D553E /* Tela02.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +432,7 @@
 				576131091AFAA0140004D0CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5761310A1AFAA0140004D0CB /* Build configuration list for PBXNativeTarget "aula0302Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +441,7 @@
 				5761310C1AFAA0140004D0CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
